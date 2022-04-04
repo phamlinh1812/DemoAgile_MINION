@@ -15,10 +15,11 @@
 			$user = new User();
 			$res = $user->createNewUser($fullName,$userName,$passWord,$email);
 			if($res){
+				
 				header("location: index.php");
 			}
 			else{
-				echo "<p class=\"error\">Tên đăng nhập bị trùng<p>";
+				echo "<p style=\"font-size: 20px; text-align: center; color: red; font-weight: bold;\" class=\"error\">Đăng ký không thành công<p>";
 			} 
 		}
 	}
