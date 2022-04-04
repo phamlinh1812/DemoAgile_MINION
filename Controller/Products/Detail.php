@@ -11,5 +11,6 @@
 			include_once("View/Products/Detail.php");
 		} 
 	}
+	
 	else echo "<br><center><h3>Vui lòng chọn 1 sản phẩm bất kỳ để xem thông tin chi tiết!</h3><center><br>"
 ?> 

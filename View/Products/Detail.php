@@ -39,12 +39,14 @@
                                             <div role="tabpanel" class="tab-pane fade in active" id="home">
                                                 <?php echo $res['Description'];?>
                                             </div>
+                                            
                                             <div role="tabpanel" class="tab-pane fade" id="profile">
                                                 <?php echo $res['Body'] ?>
                                             </div>
                                         </div>
                                         
                                     </div>
+
                                     
                                 </div>
                             </div>
